@@ -37,7 +37,7 @@
     "node_modules"
   ],
   "types": [
-    //"webpack-env",
+    "webpack-env",
     "vuetify"
   ],
   "typeRoots": [
