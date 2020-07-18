@@ -36,12 +36,14 @@
   "exclude": [
     "node_modules"
   ],
-  "types": [
-    "webpack-env",
-    "vuetify"
-  ],
+  //added zie  https://github.com/vuetifyjs/vue-cli-plugins/issues/112#issuecomment-562935079
+  //maar zonder resultaat...
   "typeRoots": [
     "./node_modules/@types",
     "./node_modules/vuetify/types"
+  ],
+  "types": [
+    "webpack-env",
+    "vuetify"
   ]
 }
