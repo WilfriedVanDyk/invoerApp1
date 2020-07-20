@@ -11,8 +11,10 @@
     "allowSyntheticDefaultImports": true,
     "sourceMap": true,
     "baseUrl": ".",
+    //added vuetify hier: was also a solution, but declared module instead at shims-vue.d.ts 
     "types": [
-      "webpack-env"
+      "webpack-env",
+      // "vuetify"
     ],
     "paths": {
       "@/*": [
@@ -37,13 +39,13 @@
     "node_modules"
   ],
   //added zie  https://github.com/vuetifyjs/vue-cli-plugins/issues/112#issuecomment-562935079
-  //maar zonder resultaat...
-  "typeRoots": [
-    "./node_modules/@types",
-    "./node_modules/vuetify/types"
-  ],
-  "types": [
-    "webpack-env",
-    "vuetify"
-  ]
+  //but no result...
+  // "typeRoots": [
+  //   "./node_modules/@types",
+  //   "./node_modules/vuetify/types"
+  // ],
+  // "types": [
+  //   "webpack-env",
+  //   "vuetify"
+  // ]
 }
