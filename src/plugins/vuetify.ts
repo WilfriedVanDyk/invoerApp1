@@ -22,9 +22,9 @@ export default new Vuetify({
         secondary: '#b0bec5',
         accent: '#8c9eff',
         error: '#b71c1c',
-        info: colors.grey.lighten1
-        //success: colors.purple.darken1,
-        //warning: colors.brown.lighten1,
+        info: colors.grey.lighten1,
+        success: colors.purple.darken1,
+        warning: colors.brown.lighten1,
       },
     },
   },
